@@ -46,3 +46,31 @@ Este documento apresenta a estrutura inicial do banco de dados do Lumière, iden
 - id_resposta INT PRIMARY KEY AUTO_INCREMENT
 - fk_tentativa INT NOT NULL
 - fk_alternativa INT NOT NULL
+
+
+## 7. Relacionamentos entre as tabelas
+
+1. **usuario → tentativa**
+   - Um usuário pode possuir várias tentativas.
+   - FK: tentativa.fk_usuario → usuario.id_usuario
+   - Relacionamento: 1:N
+
+2. **tentativa → resposta**
+   - Uma tentativa pode possuir várias respostas.
+   - FK: resposta.fk_tentativa → tentativa.id_tentativa
+   - Relacionamento: 1:N
+
+3. **pergunta → alternativa**
+   - Uma pergunta pode possuir várias alternativas.
+   - FK: alternativa.fk_pergunta → pergunta.id_pergunta
+   - Relacionamento: 1:N
+
+4. **estilo → alternativa**
+   - Um estilo pode estar associado a várias alternativas.
+   - FK: alternativa.fk_estilo → estilo.id_estilo
+   - Relacionamento: 1:N
+
+5. **alternativa → resposta**
+   - Uma alternativa pode ser selecionada em várias respostas.
+   - FK: resposta.fk_alternativa → alternativa.id_alternativa
+   - Relacionamento: 1:N
