@@ -11,3 +11,9 @@ Este documento apresenta a estrutura inicial do banco de dados do Lumière, iden
 - email VARCHAR(150) NOT NULL UNIQUE
 - senha_hash VARCHAR(255) NOT NULL
 - data_cadastro DATETIME NOT NULL
+
+## 2. Tabela: estilo
+
+- id_estilo INT PRIMARY KEY AUTO_INCREMENT
+- nome VARCHAR(45) NOT NULL UNIQUE
+- descricao VARCHAR(255) NOT NULL
