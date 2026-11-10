@@ -74,3 +74,16 @@ Este documento apresenta a estrutura inicial do banco de dados do Lumière, iden
    - Uma alternativa pode ser selecionada em várias respostas.
    - FK: resposta.fk_alternativa → alternativa.id_alternativa
    - Relacionamento: 1:N
+
+
+## 8. Diagrama lógico do banco de dados
+
+O diagrama abaixo representa a estrutura do banco de dados do Lumière, incluindo suas seis tabelas, chaves primárias, chaves estrangeiras e relacionamentos.
+
+![Diagrama lógico do Lumière](Modelo_Logico_Lumiere.png)
+
+### Arquivo editável
+
+O modelo também está disponível no formato `.mwb`, que pode ser aberto e editado no MySQL Workbench.
+
+[Modelo editável do banco de dados](Lumiere.mwb)
