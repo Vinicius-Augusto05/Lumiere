@@ -1,0 +1,104 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #171923;
+    color: #F1E5D2;
+    font-family: Arial, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 70px;
+}
+
+
+.logo h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: #F1E5D2;
+}
+
+
+nav {
+    display: flex;
+    gap: 35px;
+}
+
+nav a {
+    color: #BDB9B1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+
+.hero {
+    min-height: 75vh;
+
+    display: flex;
+    align-items: center;
+
+    padding: 60px 70px;
+}
+
+
+.hero_conteudo {
+    max-width: 750px;
+}
+
+
+.hero_subtitulo {
+    color: #D8B77E;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+
+.hero h2 {
+    font-family: Georgia, serif;
+    font-size: 64px;
+    font-weight: normal;
+    line-height: 1.15;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    color: #F1E5D2;
+}
+
+
+.hero p {
+    color: #BDB9B1;
+    font-size: 17px;
+    line-height: 1.7;
+
+    max-width: 550px;
+}
+
+
+.botao_explorar {
+    display: inline-block;
+
+    margin-top: 35px;
+    padding: 16px 25px;
+
+    background-color: #D8B77E;
+    color: #171923;
+
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
