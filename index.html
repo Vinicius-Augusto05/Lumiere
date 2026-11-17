@@ -1,121 +1,304 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lumière — Uma carta de amor aos videogames</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-    <header class="cabecalho">
-
-        <a href="#inicio" class="logo">
-            LUMIÈRE<span>.</span>
-        </a>
-
-        <nav>
-            <a href="#manifesto">Manifesto</a>
-            <a href="#mundos">Mundos</a>
-            <a href="#manifesto">Obras</a>
-        </nav>
-
-    </header>
-
+  <body>
     <main>
+      <section class="apresentacao" id="inicio">
+        <div class="apresentacao-brilho"></div>
 
+        <div class="apresentacao-formas">
+          <span class="forma forma-um"></span>
+          <span class="forma forma-dois"></span>
+          <span class="forma forma-tres"></span>
+        </div>
 
-        <section class="hero" id="inicio">
+        <div class="apresentacao-conteudo">
+          <span class="apresentacao-subtitulo">
+            UMA CARTA DE AMOR AOS VIDEOGAMES
+          </span>
 
-            <img
+          <h1>LUMIÈRE<span>.</span></h1>
+
+          <p>
+            Quero mostrar os jogos que mais me marcaram. Não para tentar
+            convencer vocês a jogar, mas porque quero que entendam como vejo
+            cada um deles, com tanto carinho.
+          </p>
+        </div>
+
+        <span class="apresentacao-indicacao"> UMA EXPERIÊNCIA PESSOAL </span>
+      </section>
+
+      <section class="biblioteca" id="biblioteca">
+        <div class="biblioteca-cabecalho">
+          <span class="biblioteca-subtitulo"> ARQUIVO PESSOAL </span>
+
+          <h2>Minha biblioteca<span>.</span></h2>
+
+          <p>
+            Seis jogos. Seis experiências. Cada um deles deixou alguma coisa
+            comigo.
+          </p>
+        </div>
+
+        <div class="biblioteca-grade">
+          <a href="#dmc3" class="jogo-card">
+            <span class="jogo-numero">01</span>
+
+            <div class="jogo-imagem jogo-dmc">
+              <img src="img/dmc3.jpg" alt="Dante e Vergil em Devil May Cry 3" />
+            </div>
+
+            <div class="jogo-informacoes">
+              <h3>Devil May Cry 3</h3>
+              <span>INFÂNCIA E NOSTALGIA</span>
+            </div>
+          </a>
+
+          <a href="#tunic" class="jogo-card">
+            <span class="jogo-numero">02</span>
+
+            <div class="jogo-imagem jogo-tunic">
+              <img
                 src="img/tunic-fundo.png"
-                alt="Um mundo de videogame"
-                class="hero-imagem"
-            >
-
-            <div class="hero-sombra"></div>
-
-            <div class="hero-conteudo">
-
-                <span class="sobretitulo">
-                    UMA CARTA DE AMOR AOS VIDEOGAMES
-                </span>
-
-                <h1>Lumière<span>.</span></h1>
-
-                <a href="#manifesto" class="botao">
-                    Entre nesse universo <span>↓</span>
-                </a>
-
+                alt="A raposa explorando o mundo de Tunic"
+              />
             </div>
 
-            <span class="indicacao">
-                CONTINUE DESCENDO
-            </span>
+            <div class="jogo-informacoes">
+              <h3>Tunic</h3>
+              <span>DESCOBERTA E MISTÉRIO</span>
+            </div>
+          </a>
 
-        </section>
+          <article class="jogo-card">
+            <span class="jogo-numero">03</span>
 
+            <div class="jogo-imagem jogo-expedition">
+              <img
+                src="img/expedition.png"
+                alt="Arte de Clair Obscur: Expedition 33"
+              />
+            </div>
 
-        <section class="manifesto" id="manifesto">
+            <div class="jogo-informacoes">
+              <h3>Clair Obscur: Expedition 33</h3>
+              <span>UMA EXPERIÊNCIA EMOCIONAL</span>
+            </div>
+          </article>
 
+          <article class="jogo-card">
+            <span class="jogo-numero">04</span>
+
+            <div class="jogo-imagem jogo-kingdom">
+              <img
+                src="img/kingdom.png"
+                alt="Henry no mundo medieval de Kingdom Come: Deliverance"
+              />
+            </div>
+
+            <div class="jogo-informacoes">
+              <h3>Kingdom Come: Deliverance</h3>
+              <span>IMERSÃO E EXPLORAÇÃO</span>
+            </div>
+          </article>
+
+          <article class="jogo-card">
+            <span class="jogo-numero">05</span>
+
+            <div class="jogo-imagem jogo-elden">
+              <img src="img/eldenring.png" alt="Arte de Elden Ring" />
+            </div>
+
+            <div class="jogo-informacoes">
+              <h3>Elden Ring</h3>
+              <span>EXPLORAÇÃO E DESCOBERTA</span>
+            </div>
+          </article>
+
+          <article class="jogo-card">
+            <span class="jogo-numero">06</span>
+
+            <div class="jogo-imagem jogo-r6">
+              <img src="img/r6.png" alt="Arte de Rainbow Six Siege" />
+            </div>
+
+            <div class="jogo-informacoes">
+              <h3>Tom Clancy's Rainbow Six Siege</h3>
+              <span>COMPETIÇÃO E TRAJETÓRIA</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="experiencia-dmc" id="dmc3">
+        <div class="dmc-abertura">
+          <div class="dmc-imagem-principal">
             <img
-                src="img/sirene-fundo.png"
-                alt="Universo de Clair Obscur: Expedition 33"
-                class="manifesto-imagem"
-            >
+              src="img/dmc3guitarra.png"
+              alt="Dante com sua guitarra em Devil May Cry 3"
+            />
+          </div>
 
-            <div class="manifesto-sombra"></div>
+          <div class="dmc-introducao">
+            <span>DEVIL MAY CRY 3</span>
+            <h2>O exagero faz parte do espetáculo.</h2>
+            <p>
+              DMC3 não tem medo de ser esquisito. Dante e os outros personagens
+              são completamente malucos, extravagantes e exagerados. E é
+              justamente isso que torna tudo tão incrível.
+            </p>
+          </div>
+        </div>
 
-            <div class="manifesto-conteudo">
+        <div class="dmc-universo">
+          <div class="dmc-universo-texto">
+            <span>UM UNIVERSO COM PERSONALIDADE</span>
+            <p>
+              O gótico e o rock parecem ter nascido para se encontrar nesse
+              universo. A arquitetura sombria, os demônios, as roupas
+              extravagantes e toda aquela atmosfera combinam de um jeito que
+              parece natural.
+            </p>
+          </div>
 
-                <span class="sobretitulo">
-                    01 — MAIS DO QUE JOGOS
-                </span>
+          <div class="dmc-imagens-universo">
+            <img src="img/arkham.png" alt="Arkham em Devil May Cry 3" />
+            <img src="img/sparda.png" alt="Dante em Devil May Cry 3" />
+          </div>
 
-                <h2>
-                    Uma forma de <span>arte.</span>
-                </h2>
+          <p class="dmc-legenda">
+            Um mundo sombrio que nunca perde sua atitude.
+          </p>
+        </div>
 
-            </div>
+        <div class="dmc-memorias">
+          <span>UMA LEMBRANÇA QUE FICOU</span>
 
-        </section>
+          <img
+            src="img/dantexvergil.png"
+            alt="Dante e Vergil em Devil May Cry 3"
+          />
 
+          <div class="dmc-memorias-texto">
+            <h2>Dante e Vergil.</h2>
+            <p>
+              Mas, quando penso em DMC3, existe uma lembrança que sempre volta
+              primeiro: Dante e Vergil. O confronto, a rivalidade e todas
+              aquelas tentativas de vencer o Vergil... É uma das partes mais
+              memoráveis que guardo desse jogo.
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <section class="mundos" id="mundos">
-
+      <section class="experiencia-tunic" id="tunic">
+        <div class="tunic-abertura">
+          <div class="tunic-praia">
             <img
-                src="img/expedition-fundo.png"
-                alt="Paisagem de Clair Obscur: Expedition 33"
-                class="mundos-imagem"
-            >
+              src="img/tunicpraia.png"
+              alt="A raposa acordando em uma praia em Tunic"
+            />
+          </div>
 
-            <div class="mundos-sombra"></div>
+          <div class="tunic-introducao">
+            <span>01 — O COMEÇO DE TUDO</span>
+            <h2>Um mundo cheio de perguntas.</h2>
+            <p>
+              Você acorda em uma praia. Não sabe onde está, o que aconteceu ou
+              para onde deveria ir. Tudo parece esconder alguma coisa. E, desde
+              o primeiro momento, a vontade de descobrir o que existe naquele
+              mundo fala mais alto.
+            </p>
+          </div>
+        </div>
 
-            <div class="mundos-conteudo">
+        <div class="tunic-manual">
+          <div class="tunic-manual-texto">
+            <span>02 — UMA DESCOBERTA</span>
+            <h2>Finalmente, um manual!</h2>
+            <p>
+              Depois de explorar um pouco, você encontra um manual. Finalmente,
+              algo que pode ajudar a entender aquele mundo! Talvez agora algumas
+              respostas comecem a aparecer.
+            </p>
+          </div>
 
-                <span class="sobretitulo">
-                    02 — A BELEZA DE CRIAR MUNDOS
-                </span>
+          <div class="tunic-manual-imagem">
+            <img
+              src="img/manual.png"
+              alt="Manual encontrado durante a jornada em Tunic"
+            />
+          </div>
+        </div>
 
-                <h2>
-                    Lugares que parecem <span>vivos.</span>
-                </h2>
+        <div class="tunic-paginas">
+          <div class="tunic-paginas-imagem">
+            <img src="img/lore.png" alt="Páginas do manual de Tunic" />
+          </div>
 
-            </div>
+          <div class="tunic-paginas-texto">
+            <span>03 — NOVAS DÚVIDAS</span>
+            <h2>Mas estão faltando páginas.</h2>
+            <p>
+              O manual está incompleto. Suas páginas estão espalhadas pelo
+              mundo, e encontrá-las passa a fazer parte da aventura. Mas, ao
+              folhear aquelas páginas, você percebe que existe um problema ainda
+              maior...
+            </p>
+          </div>
+        </div>
 
-        </section>
+        <div class="tunic-lingua">
+          <div class="tunic-lingua-cabecalho">
+            <span>04 — O GRANDE MISTÉRIO</span>
+            <h2>Você precisa aprender uma nova língua.</h2>
+            <p>
+              Todo aquele conhecimento está ali, diante de você. O manual guarda
+              informações, segredos e partes importantes daquele universo. Só
+              existe um detalhe: tudo está escrito em uma língua fictícia.
+            </p>
+          </div>
 
+          <div class="tunic-leitura-imagem">
+            <img
+              src="img/leitura.png"
+              alt="Escrita fictícia encontrada no manual de Tunic"
+            />
+          </div>
+
+          <div class="tunic-lingua-destaque">
+            <p>
+              E aprender a interpretar aquela escrita não é apenas um detalhe ou
+              uma curiosidade. É parte fundamental da jornada.
+            </p>
+          </div>
+        </div>
+
+        <div class="tunic-final">
+          <span>05 — O QUE TORNA TUDO ESPECIAL</span>
+
+          <h2>É isso que me encanta em Tunic.</h2>
+
+          <p>
+            Para mim, uma das coisas mais fascinantes do jogo é essa sensação de
+            estar sempre descobrindo algo novo. Você começa sem entender nada,
+            encontra um manual e descobre que precisa aprender a própria língua
+            daquele mundo para compreender seus segredos.
+          </p>
+
+          <p>
+            É essa vontade constante de descobrir, entender e finalmente
+            conectar as peças que torna esse universo tão cativante para mim.
+          </p>
+        </div>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>
