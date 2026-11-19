@@ -1,4 +1,3 @@
-
 :root {
     --fundo: #080b14;
     --texto: #e9efff;
@@ -158,11 +157,12 @@ body {
 }
 
 .biblioteca-grade {
-    max-width: 1100px;
+    max-width: 950px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 28px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+
 }
 
 .jogo-card {
@@ -238,7 +238,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* DEVIL MAY CRY 3 */
 
 .experiencia-dmc {
     position: relative;
@@ -1014,5 +1013,582 @@ body {
     .tunic-final {
         margin-top: 110px;
         padding: 35px 25px;
+    }
+}
+
+
+
+
+
+
+.
+.experiencia-expedition {
+    background: #101521;
+    color: #e9e4d8;
+    font-family: Georgia, serif;
+    overflow: hidden;
+}
+
+.experiencia-expedition img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.experiencia-expedition span {
+    display: block;
+    color: #c5a66a;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 3px;
+    line-height: 1.8;
+}
+
+.experiencia-expedition h2 {
+    color: #e9e4d8;
+    font-size: clamp(32px, 5vw, 58px);
+    font-weight: normal;
+    line-height: 1.12;
+    margin: 22px 0;
+}
+
+.experiencia-expedition p {
+    color: #c1c3c9;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+
+.expedition-abertura {
+    min-height: 700px;
+    padding: 100px 9%;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 70px;
+    background: linear-gradient(135deg, #101521, #1b2638);
+}
+
+.expedition-abertura-texto {
+    max-width: 550px;
+}
+
+.expedition-abertura-texto p {
+    max-width: 510px;
+}
+
+.expedition-abertura-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.expedition-abertura-imagens img {
+    width: 100%;
+    max-height: 570px;
+    object-fit: contain;
+}
+
+
+.expedition-descoberta {
+    padding: 110px 9%;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    align-items: center;
+    gap: 65px;
+    background: #e8e1d2;
+    color: #222b3b;
+}
+
+.expedition-descoberta-texto {
+    width: 100%;
+    max-width: 480px;
+}
+
+.expedition-descoberta h2 {
+    color: #26344a;
+}
+
+.expedition-descoberta p {
+    color: #51545a;
+}
+
+.expedition-descoberta span {
+    color: #947447;
+}
+
+.expedition-descoberta-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.expedition-descoberta-imagens img {
+    width: 100%;
+    max-height: 520px;
+    object-fit: contain;
+}
+
+.expedition-revelacao {
+    padding: 110px 9%;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 65px;
+    background: #131b2a;
+}
+
+.expedition-revelacao-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.expedition-revelacao-imagens img {
+    width: 100%;
+    max-height: 550px;
+    object-fit: contain;
+}
+
+.expedition-revelacao-texto {
+    width: 100%;
+    max-width: 570px;
+}
+
+.expedition-finais {
+    padding: 120px 8%;
+    background: #e8e1d2;
+}
+
+.expedition-finais-cabecalho {
+    max-width: 750px;
+    margin: 0 auto 65px;
+    text-align: center;
+}
+
+.expedition-finais h2 {
+    color: #26344a;
+}
+
+.expedition-finais-cabecalho p {
+    color: #51545a;
+}
+
+.expedition-finais-cabecalho span {
+    color: #947447;
+}
+
+.expedition-finais-grade {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    align-items: start;
+}
+
+.expedition-final {
+    background: #182234;
+    overflow: hidden;
+}
+
+.expedition-final img {
+    width: 100%;
+    height: 340px;
+    object-fit: contain;
+}
+
+.expedition-final-texto {
+    padding: 35px;
+}
+
+.expedition-final h3 {
+    color: #e9e4d8;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 15px 0 20px;
+}
+
+.expedition-final p {
+    color: #c1c3c9;
+}
+
+.expedition-final-maelle {
+    border-bottom: 4px solid #9b777b;
+}
+
+.expedition-final-verso {
+    border-bottom: 4px solid #c5a66a;
+}
+
+
+.expedition-reflexao {
+    padding: 150px 12%;
+    text-align: center;
+    background: radial-gradient(circle at center, #28354a, #101521 70%);
+}
+
+.expedition-reflexao h2 {
+    max-width: 850px;
+    margin: 30px auto;
+    font-size: clamp(32px, 5vw, 56px);
+}
+
+.expedition-reflexao p {
+    max-width: 720px;
+    margin: 22px auto;
+}
+
+
+@media (max-width: 800px) {
+    .expedition-abertura,
+    .expedition-descoberta,
+    .expedition-revelacao {
+        grid-template-columns: 1fr;
+        padding: 85px 7%;
+        gap: 40px;
+    }
+
+    .expedition-abertura-imagens img {
+        max-height: 480px;
+    }
+
+    .expedition-descoberta-imagens img,
+    .expedition-revelacao-imagens img {
+        max-height: 450px;
+    }
+
+    .expedition-finais {
+        padding: 85px 6%;
+    }
+
+    .expedition-finais-grade {
+        gap: 20px;
+    }
+
+    .expedition-final img {
+        height: 260px;
+    }
+
+    .expedition-final-texto {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .expedition-abertura,
+    .expedition-descoberta,
+    .expedition-revelacao {
+        padding: 70px 6%;
+    }
+
+    .expedition-abertura-imagens img,
+    .expedition-descoberta-imagens img,
+    .expedition-revelacao-imagens img {
+        max-height: 360px;
+    }
+
+    .expedition-finais-grade {
+        grid-template-columns: 1fr;
+    }
+
+    .expedition-final img {
+        height: 280px;
+    }
+
+    .expedition-reflexao {
+        padding: 90px 7%;
+    }
+}
+
+
+.experiencia-r6 {
+    position: relative;
+    overflow: hidden;
+    padding: 110px 8% 130px;
+    color: #e8e7df;
+    background:
+        radial-gradient(ellipse at 85% 10%, rgba(184, 166, 105, 0.12), transparent 42%),
+        radial-gradient(ellipse at 10% 75%, rgba(91, 103, 91, 0.12), transparent 45%),
+        #111412;
+}
+
+.experiencia-r6::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 99px,
+        rgba(255, 255, 255, 0.018) 100px
+    );
+}
+
+.r6-abertura,
+.r6-conquista,
+.r6-despedida,
+.r6-o-que-ficou {
+    position: relative;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.r6-abertura-texto span,
+.r6-conquista-texto span,
+.r6-despedida-texto span,
+.r6-final-texto span {
+    color: #c3b477;
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+}
+
+.r6-abertura-texto h2,
+.r6-conquista-texto h2,
+.r6-despedida-texto h2,
+.r6-final-texto h2 {
+    margin: 22px 0;
+    color: #e8e7df;
+    font-family: Georgia, serif;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.r6-abertura-texto p,
+.r6-conquista-texto p,
+.r6-despedida-texto p,
+.r6-final-texto p {
+    color: rgba(232, 231, 223, 0.72);
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.r6-abertura-texto p + p,
+.r6-conquista-texto p + p,
+.r6-despedida-texto p + p,
+.r6-final-texto p + p {
+    margin-top: 18px;
+}
+
+.r6-abertura {
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.r6-abertura-texto {
+    padding: 30px 0 30px 30px;
+    border-left: 2px solid #b6a66d;
+}
+
+.r6-abertura-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.r6-abertura-imagem img {
+    width: 100%;
+    max-height: 570px;
+    display: block;
+    object-fit: contain;
+    filter: contrast(1.05);
+    transition: 0.4s;
+}
+
+.r6-conquista {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.r6-conquista-texto {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.025);
+    border-left: 2px solid #b6a66d;
+}
+
+.r6-equipes {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    min-width: 0;
+}
+
+.r6-equipes img {
+    width: 100%;
+    max-height: 300px;
+    display: block;
+    object-fit: contain;
+    background: rgba(255, 255, 255, 0.025);
+    filter: contrast(1.05);
+    transition: 0.4s;
+}
+
+.r6-despedida {
+    margin-top: 170px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 65px;
+}
+
+.r6-despedida-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.r6-despedida-imagem img {
+    width: 100%;
+    max-height: 550px;
+    display: block;
+    object-fit: contain;
+    filter: contrast(1.05);
+    transition: 0.4s;
+}
+
+.r6-despedida-texto {
+    padding: 30px;
+    border-right: 2px solid #b6a66d;
+}
+
+.r6-o-que-ficou {
+    margin-top: 180px;
+    padding: 75px 65px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 55px;
+    background:
+        radial-gradient(ellipse at center, rgba(182, 166, 109, 0.09), transparent 75%),
+        #191e1a;
+    border-top: 1px solid rgba(195, 180, 119, 0.3);
+    border-bottom: 1px solid rgba(195, 180, 119, 0.3);
+}
+
+.r6-final-texto {
+    padding: 20px 0;
+}
+
+.r6-final-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+}
+
+.r6-final-imagem img {
+    width: 100%;
+    max-height: 480px;
+    display: block;
+    object-fit: contain;
+    filter: contrast(1.05);
+    transition: 0.4s;
+}
+
+.r6-abertura-imagem img:hover,
+.r6-equipes img:hover,
+.r6-despedida-imagem img:hover,
+.r6-final-imagem img:hover {
+    filter: brightness(1.08) contrast(1.1);
+}
+
+
+@media (max-width: 800px) {
+    .r6-abertura,
+    .r6-conquista,
+    .r6-despedida {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .r6-abertura {
+        min-height: auto;
+    }
+
+    .r6-abertura-imagem img {
+        max-height: 480px;
+    }
+
+    .r6-conquista,
+    .r6-despedida {
+        margin-top: 110px;
+    }
+
+    .r6-despedida-imagem {
+        order: 1;
+    }
+
+    .r6-despedida-texto {
+        order: 2;
+    }
+
+    .r6-o-que-ficou {
+        grid-template-columns: 1fr;
+        padding: 50px 35px;
+        gap: 35px;
+    }
+
+    .r6-final-imagem img {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .experiencia-r6 {
+        padding: 75px 6% 90px;
+    }
+
+    .r6-abertura-texto {
+        padding-left: 20px;
+    }
+
+    .r6-abertura-imagem img {
+        max-height: 350px;
+    }
+
+    .r6-conquista,
+    .r6-despedida {
+        margin-top: 90px;
+    }
+
+    .r6-conquista-texto,
+    .r6-despedida-texto {
+        padding: 22px;
+    }
+
+    .r6-equipes {
+        gap: 18px;
+    }
+
+    .r6-equipes img {
+        max-height: 230px;
+    }
+
+    .r6-despedida-imagem img {
+        max-height: 350px;
+    }
+
+    .r6-o-que-ficou {
+        margin-top: 110px;
+        padding: 35px 22px;
+    }
+
+    .r6-final-imagem img {
+        max-height: 320px;
     }
 }
