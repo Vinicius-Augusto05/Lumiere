@@ -13,6 +13,7 @@ var HOST_APP = process.env.APP_HOST;
 
 var banco = require("./src/database/config");
 var estilosRouter = require("./src/routes/estilos");
+var usuariosRouter = require("./src/routes/usuarios");
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/estilos", estilosRouter);
+app.use("/usuarios", usuariosRouter);
 
 app.get("/teste", function (req, res) {
     res.send("Minha API está funcionando!");
