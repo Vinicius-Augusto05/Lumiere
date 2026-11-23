@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière | Criar conta</title>
+    <link rel="stylesheet" href="acesso.css">
+</head>
+
+<body>
+
+    <main class="acesso">
+
+        <a href="index.html" class="voltar">← Lumière</a>
+
+        <section class="acesso-conteudo">
+
+            <span class="acesso-legenda">FAÇA PARTE DO LUMIÈRE</span>
+
+            <h1>Uma nova história começa aqui.</h1>
+
+            <p class="acesso-descricao">
+                Crie sua conta e tenha um espaço para explorar histórias e experiências.
+            </p>
+
+            <form id="form_cadastro">
+
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome"
+                    placeholder="Seu nome" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email"
+                    placeholder="seu@email.com" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha"
+                    placeholder="Mínimo de 8 caracteres" minlength="8" required>
+
+                <button type="submit">Criar conta</button>
+
+                <p id="mensagem"></p>
+
+            </form>
+
+            <p class="acesso-alternativa">
+                Já tem uma conta?
+                <a href="login.html">Entrar</a>
+            </p>
+
+        </section>
+
+        <span class="acesso-assinatura">LUMIÈRE — VIDEOGAMES, MEMÓRIAS E ARTE</span>
+
+    </main>
+
+    <script src="cadastro.js"></script>
+
+</body>
+</html>

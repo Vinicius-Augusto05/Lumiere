@@ -2,13 +2,13 @@
 
 ## 1. Apresentação
 
-Lumière é um projeto individual desenvolvido na SPTech School, com a proposta de demonstrar que os videogames são para todos.
+Lumière é um projeto individual desenvolvido na SPTech School, com a proposta de demonstrar que os videogames são para todos e também são arte.
 
 O projeto busca compartilhar a relação entre pessoas e videogames, apresentando histórias, experiências e diferentes formas de aproveitar esse universo.
 
 ## 2. Objetivo geral
 
-Desenvolver um site interativo que apresente minha trajetória com os videogames e permita que os visitantes descubram seu estilo de jogador por meio de um quiz de personalidade.
+Desenvolver um site interativo que apresente minha trajetória com os videogames e permita que os visitantes descubram seus estilos de jogador por meio de um questionário sobre personalidade.
 
 ## 3. Público-alvo
 
@@ -18,20 +18,21 @@ O projeto é destinado tanto a pessoas que já possuem contato com videogames qu
 
 ### 4.1 Área pública
 - Página inicial com apresentação do Lumière.
-- Página Minha Jornada, contando minha história com os jogos.
-- Conteúdos sobre videogames, experiências e preferências.
+- Biblioteca de jogos favoritos.
+- Páginas individuais dedicadas a jogos, apresentando experiências e histórias pessoais.
+- Navegação pelos conteúdos sem necessidade de cadastro.
 
 ### 4.2 Área do usuário
 - Cadastro de usuários.
 - Login.
-- Quiz para descobrir o estilo de jogador.
-- Apresentação do resultado com pontuação dos estilos.
-- Dashboard com gráficos e recomendações.
-- Histórico de todas as tentativas realizadas.
+- Questionário para identificar os estilos de jogador.
+- Apresentação das pontuações dos seis estilos.
+- Dashboard com gráfico de distribuição dos resultados.
+- Recomendações de quatro jogos relacionadas aos dois estilos com maior pontuação.
 
 ## 5. Estilos de jogadores
 
-O quiz trabalhará inicialmente com seis estilos:
+O questionário trabalha com seis estilos:
 
 - Explorador
 - Narrativo
@@ -44,31 +45,16 @@ O quiz trabalhará inicialmente com seis estilos:
 
 As páginas públicas poderão ser acessadas sem cadastro.
 
-Para realizar o quiz, consultar os resultados e acessar o dashboard, será necessário criar uma conta e efetuar login.
+Para realizar o questionário e acessar a dashboard, será necessário criar uma conta e efetuar login.
 
-Cada tentativa do quiz será armazenada, permitindo que o usuário consulte resultados anteriores.
+Cada tentativa do questionário será armazenada no banco de dados, juntamente com as respostas fornecidas pelo usuário.
 
-## 7. Tecnologias previstas
+## 7. Tecnologias utilizadas
 
-- HTML: estrutura das páginas.
-- CSS: identidade visual e estilização.
-- JavaScript: interações, validações e cálculos.
-- Node.js: desenvolvimento da API.
-- MySQL: armazenamento dos dados.
-- Linux: ambiente virtual para o banco de dados.
-- Chart.js: visualização gráfica dos resultados.
-
-## 8. Limites do projeto
-
-Para manter o desenvolvimento viável dentro do período acadêmico, a primeira versão não incluirá:
-
-- Comunidade de usuários.
-- Publicações e comentários.
-- Seguidores.
-- Chat entre usuários.
-- Integração com plataformas externas de jogos.
-- Recomendações avançadas utilizando inteligência artificial.
-
-## 9. Resultado esperado
-
-Entregar uma experiência digital que apresente minha relação com os videogames e permita que diferentes pessoas descubram como se relacionam com esse universo, aplicando os conhecimentos técnicos adquiridos durante o semestre na SPTech School.
+- **HTML:** estrutura das páginas.
+- **CSS:** identidade visual e estilização.
+- **JavaScript:** interações, validações e cálculos.
+- **Node.js:** desenvolvimento da API.
+- **MySQL:** armazenamento dos dados.
+- **Linux:** ambiente virtual para execução do banco de dados.
+- **Chart

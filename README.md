@@ -40,3 +40,14 @@ Este projeto está em fase de planejamento e desenvolvimento. O repositório ser
 **Lumière — Uma experiência sobre histórias, memórias e videogames.**
 
 Projeto acadêmico individual — SPTech School.
+
+
+## Relação com GMUD e ODS da ONU
+
+O projeto também considera os conceitos estudados em sala de aula:
+
+- **GMUD:** aplicação dos princípios de gerenciamento de mudanças no desenvolvimento e na evolução do projeto, documentando alterações e decisões realizadas durante sua construção.
+- **ODS 4 — Educação de Qualidade:** valorização dos videogames como ferramentas culturais e experiências que podem estimular a curiosidade, a criatividade e o aprendizado.
+- **ODS 10 — Redução das Desigualdades:** incentivo à ideia de que os videogames são para todos, independentemente do nível de experiência ou familiaridade com esse universo.
+
+Entretanto, com toda vivência que possuo em jogos, acredito que todos objetivos de desenvolvimento sustentável estão ligados a jogos, tenho certeza que existe no minimo um jogo para cada tópico.

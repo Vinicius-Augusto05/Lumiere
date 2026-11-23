@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lumière — Seu resultado</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+    <main class="dashboard">
+
+        <section class="dashboard-apresentacao">
+
+            <span class="dashboard-legenda">
+                SUA EXPERIÊNCIA NO LUMIÈRE
+            </span>
+
+            <h1>Um pouco mais sobre você.</h1>
+
+            <p>
+                Cada pessoa encontra algo diferente nos videogames.
+                Descubra o que suas respostas revelam sobre seu estilo.
+            </p>
+
+        </section>
+
+        <section class="dashboard-resultado">
+
+            <span class="dashboard-legenda">
+                SEU ESTILO PREDOMINANTE
+            </span>
+
+            <h2 id="nomeEstilo">Carregando...</h2>
+
+            <p id="descricaoEstilo">
+                Estamos preparando seu resultado.
+            </p>
+
+        </section>
+
+        <section class="dashboard-distribuicao">
+
+            <span class="dashboard-legenda">
+                SUA PERSONALIDADE
+            </span>
+
+            <h2>Um pouco de cada estilo.</h2>
+
+            <p>
+                Veja como suas respostas se distribuíram entre
+                os diferentes estilos do Lumière.
+            </p>
+
+            <div class="dashboard-grafico">
+                <canvas id="graficoEstilos"></canvas>
+            </div>
+
+        </section>
+
+        <section class="dashboard-recomendacoes">
+
+            <span class="dashboard-legenda">
+                EXPERIÊNCIAS PARA DESCOBRIR
+            </span>
+
+            <h2>Jogos que combinam com você.</h2>
+
+            <div id="jogosRecomendados"></div>
+
+        </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+
+</html>

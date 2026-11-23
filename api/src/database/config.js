@@ -6,21 +6,17 @@ var conexao = mysql.createPool({
     user: "aluno",
     password: process.env.DB_PASSWORD,
     database: "lumiere",
-    port: 3306
+    port: 3308
 });
-
 
 function executar(instrucao, valores = []) {
     return new Promise(function (resolve, reject) {
-
         conexao.query(instrucao, valores, function (erro, resultados) {
-
             if (erro) {
                 reject(erro);
             } else {
                 resolve(resultados);
             }
-
         });
     });
 }
